@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src/test/resources",
 				 glue = "org.stepdefinition",
 				 dryRun = false,
-				 monochrome = true
-				 
+				 monochrome = true,
+				 tags="@e2e"
 				)
 public class TestRunner {
 
